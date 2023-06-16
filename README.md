@@ -1,10 +1,12 @@
 To develop a flight ticket booking web application based on the specified user requirements, you can leverage the following tech stack:
 
 Frontend:
+
 HTML5: Utilized as a markup language to structure web pages.
 CSS3: Employed as a styling language for crafting an appealing user interface.
 JavaScript: Implemented as a programming language to enable client-side interactivity.
 Backend:
+
 Node.js: Leveraged as a JavaScript runtime environment for server-side development.
 Express.js: Utilized as a web application framework for Node.js, facilitating route handling and request management.
 MongoDB: Deployed as a NoSQL database to store user and flight-related information.
