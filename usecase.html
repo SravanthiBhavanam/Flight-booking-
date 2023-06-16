@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flight Ticket Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Flight Ticket Booking</h1>
+  </header>
+  <main>
+    <section id="admin-login-section">
+      <h2>Admin Login</h2>
+      <form id="admin-login-form">
+        <label for="admin-email">Email:</label>
+        <input type="email" id="admin-email" name="admin-email" required>
+        <label for="admin-password">Password:</label>
+        <input type="password" id="admin-password" name="admin-password" required>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+    <section id="add-flight-section">
+      <h2>Add Flight</h2>
+      <form id="add-flight-form">
+        <label for="flight-number">Flight Number:</label>
+        <input type="text" id="flight-number" name="flight-number" required>
+        <label for="departure">Departure:</label>
+        <input type="text" id="departure" name="departure" required>
+        <label for="arrival">Arrival:</label>
+        <input type="text" id="arrival" name="arrival" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <button type="submit">Add Flight</button>
+      </form>
+    </section>
+    <section id="remove-flight-section">
+      <h2>Remove Flight</h2>
+      <form id="remove-flight-form">
+        <label for="flight-number">Flight Number:</label>
+        <input type="text" id="flight-number" name="flight-number" required>
+        <button type="submit">Remove Flight</button>
+      </form>
+    </section>
+    <section id="view-booking-section">
+      <h2>View Bookings</h2>
+      <form id="view-booking-form">
+        <label for="flight-number">Flight Number:</label>
+        <input type="text" id="flight-number" name="flight-number" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">View Bookings</button>
+      </form>
+      <ul id="booking-list">
+        <!-- Booking details will be dynamically populated -->
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Flight Ticket Booking. All rights reserved.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
