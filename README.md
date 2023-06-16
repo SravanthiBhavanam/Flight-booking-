@@ -5,6 +5,7 @@ Frontend:
 HTML5: Utilized as a markup language to structure web pages.
 CSS3: Employed as a styling language for crafting an appealing user interface.
 JavaScript: Implemented as a programming language to enable client-side interactivity.
+
 Backend:
 
 Node.js: Leveraged as a JavaScript runtime environment for server-side development.
